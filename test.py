@@ -92,6 +92,7 @@ def build_diet_model(mdl, **kwargs):
     mdl.add_kpi(nb_products, 'Nb foods')
     mdl.minimize(total_cost)
 
+    print("here")
     return mdl
 
 
