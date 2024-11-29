@@ -1,0 +1,30 @@
+
+.DS_Store
+*.swp
+*.parquet
+
+
+__pycache__/
+
+# ignore vscode settings
+.env
+.vscode/
+
+# ignore build dir
+build/
+dist/
+.conda
+.venv
+
+# ignote make build artifacts
+/localization_container/Library
+
+*egg-info
+.idea/
+/.idea
+.idea/workspace.xml
+.idea/workspace.xml
+/.settings/
+/bin/
+/venv/
+/.project
